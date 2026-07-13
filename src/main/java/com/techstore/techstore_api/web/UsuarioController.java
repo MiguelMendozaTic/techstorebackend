@@ -20,7 +20,7 @@ import com.techstore.techstore_api.service.UsuarioService;
 
 @RestController
 @RequestMapping("/api/usuarios")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://techstorefrontend-six.vercel.app")
 public class UsuarioController {
 
     private final UsuarioService usuarioService;

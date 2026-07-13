@@ -18,7 +18,8 @@ import com.techstore.techstore_api.web.dto.LoginRequest;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://techstorefrontend-six.vercel.app")
+//@CrossOrigin(origins = "*")
 public class AuthController {
 
     private final UsuarioService usuarioService;

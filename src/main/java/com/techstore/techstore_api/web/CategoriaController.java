@@ -21,7 +21,7 @@ import com.techstore.techstore_api.service.CategoriaService;
 
 @RestController
 @RequestMapping("/api/categorias")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://techstorefrontend-six.vercel.app")
 public class CategoriaController {
 
     private final CategoriaService categoriaService;

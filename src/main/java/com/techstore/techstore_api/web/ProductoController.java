@@ -21,7 +21,7 @@ import com.techstore.techstore_api.service.ProductoService;
 
 @RestController
 @RequestMapping("/api/productos")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://techstorefrontend-six.vercel.app")
 public class ProductoController {
 
     private final ProductoService productoService;

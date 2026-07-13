@@ -2,11 +2,10 @@ package com.techstore.techstore_api.web;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://techstorefrontend-six.vercel.app")
 public class DemoController {
 
     @GetMapping("/hola")

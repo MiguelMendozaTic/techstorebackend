@@ -23,7 +23,7 @@ import com.techstore.techstore_api.service.VentaService;
 
 @RestController
 @RequestMapping("/api/ventas")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://techstorefrontend-six.vercel.app")
 public class VentaController {
 
     private final VentaService ventaService;

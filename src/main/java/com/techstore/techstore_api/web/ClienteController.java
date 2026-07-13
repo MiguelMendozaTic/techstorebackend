@@ -21,7 +21,7 @@ import com.techstore.techstore_api.service.ClienteService;
 
 @RestController
 @RequestMapping("/api/clientes")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://techstorefrontend-six.vercel.app")
 public class ClienteController {
 
     private final ClienteService clienteService;
